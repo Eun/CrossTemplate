@@ -58,6 +58,11 @@
     <Compile Include="Mac\Constants.cs" />
     <Compile Include="Win32\user32.cs" />
     <Compile Include="gtk-gui\MainWindow.cs" />
+    <Compile Include="Mac\IgeMacMenuGlobal.cs" />
+    <Compile Include="MenuItems\MenuItem.cs" />
+    <Compile Include="MenuItems\RadioMenuItem.cs" />
+    <Compile Include="MenuItems\CheckMenuItem.cs" />
+    <Compile Include="MenuItems\ImageMenuItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -70,5 +75,6 @@
   <ItemGroup>
     <Folder Include="Mac\" />
     <Folder Include="Win32\" />
+    <Folder Include="MenuItems\" />
   </ItemGroup>
 </Project>

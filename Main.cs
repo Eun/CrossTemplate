@@ -17,7 +17,7 @@ namespace CrossTemplate
 			// Normaly you wouldn't need this
 			if (platform == Platforms.Mac)
 			{
-				MonoMac.AppKit.NSApplication.Init();
+				MonoMac.AppKit.NSApplication.Init ();
 			}
 			MainWindow win = new MainWindow ();
 			win.Show ();
